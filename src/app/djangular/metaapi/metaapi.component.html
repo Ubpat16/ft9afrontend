@@ -1,0 +1,21 @@
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>S/N</th>
+                <th>Market Watch Time</th>
+                <th>Balance</th>
+                <th>Equity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of MetaAPIList.slice().reverse().slice(0, 15); let i = index">
+                <td>{{ i + 1 }}</td>
+                <td>{{ data.market_watch_time }} </td>
+                <td>$ {{ data.balance }} </td>
+                <td>$ {{ data.equity }} </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
