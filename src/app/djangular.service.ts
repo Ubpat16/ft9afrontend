@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 
 export class DjangularService {
-readonly APIUrl = "https://arcane-sierra-50808.herokuapp.com";
+readonly APIUrl = "https://stark-temple-19066.herokuapp.com";
 
   constructor(private http:HttpClient) { }
 

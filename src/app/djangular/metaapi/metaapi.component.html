@@ -9,7 +9,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let data of MetaAPIList.slice().reverse().slice(0, 15); let i = index">
+            <tr *ngFor="let data of MetaAPIList.slice().reverse().slice(0, 10); let i = index">
                 <td>{{ i + 1 }}</td>
                 <td>{{ data.market_watch_time }} </td>
                 <td>$ {{ data.balance }} </td>
