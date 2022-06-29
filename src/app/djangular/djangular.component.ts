@@ -12,15 +12,15 @@ export class DjangularComponent implements OnInit {
   constructor(private service:DjangularService) {}
 
   ngOnInit(): void {
-    interval(300000).pipe(
-      map(() => {
-        this.get_data();
-      })
-    ).subscribe();
+    // interval(300000).pipe(
+    //   map(() => {
+    //     this.get_data();
+    //   })
+    // ).subscribe();
   }
 
-  get_data(){
-    this.service.refreshData().subscribe(data=>{})  
-  }
+  // get_data(){
+  //   this.service.refreshData().subscribe(data=>{})  
+  // }
 
 }

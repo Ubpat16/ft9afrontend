@@ -15,7 +15,7 @@ readonly APIUrl = "https://arcane-sierra-50808.herokuapp.com";
     return this.http.get<any[]>(this.APIUrl + '/')
   }
 
-  refreshData(){
-    return this.http.get(this.APIUrl + '/refresh')
-  }
+  // refreshData(){
+  //   return this.http.get(this.APIUrl + '/refresh')
+  // }
 }
