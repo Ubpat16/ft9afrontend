@@ -14,7 +14,7 @@ export class DjangularComponent implements OnInit {
   ngOnInit(): void {
     // interval(300000).pipe(
     //   map(() => {
-    //     this.get_data();
+    //     this.service.getListData();
     //   })
     // ).subscribe();
   }
